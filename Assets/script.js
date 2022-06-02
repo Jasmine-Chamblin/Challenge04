@@ -6,8 +6,8 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 
 let shuffledQuestions, currentQuestionIndex
 
-// Struggled to understand why the event listener was not working
-startButton.addEventListener('click', startGame;
+// Struggled to understand why my event listener was not working
+startButton.addEventListener('click', startGame)
 
 function startGame() {
     console.log('Started')
@@ -36,10 +36,6 @@ function showQuestion(question) {
     })
 }
 
-function selectAnswer() {
-
-
-}
 
 const questions = [
     {

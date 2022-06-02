@@ -1,18 +1,11 @@
 *,
 *::before,
 *::after {
-    box sizing: border-box;
+    box-sizing: border-box;
     font-family: arial;
 }
 
-:root {
-    --hue-neutral: 200;
-    --hue-wrong: 0;
-    --hue-correct: 145;
-}
-
 body {
-    --hue: var(--hue-neutral);
     padding: 0;
     margin: 0;
     display: flex;
@@ -22,35 +15,22 @@ body {
     align-items: center;
 }
 
-body.correct {
-    --hue: var(--hue-correct);
-
-}
-
-body.wrong {
-    --hue: var(--hue-wrong);
-}
 
 .container {
-width: 800px;
-max-width: 80%;
-background-color: grey;
-border-radius: 7px;
-padding: 11px;
+    width: 800px;
+    max-width: 80%;
+    background-color: grey;
+    border-radius: 7px;
+    padding: 11px;
 }
 
 .btn-grid {
-display: grid;
-gap: 8px;
+    display: grid;
+    gap: 8px;
 }
 
 .btn:hover {
-    border-color:black;
+    border-color: black;
 
 }
-.btn.correct {
-    --hue: var(--hue-correct);
-}
-.btn.wrong {
-    --hue: var(--hue-wrong);
-}
+
